@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body style="background-image: url('wp.jpg');background-repeat: no-repeat;background-size: cover;">
+<!-- partial:index.partial.html -->
+<div id = "amici1" class="amici1" >
+  <img src="amici.gif" alt="">
+</div>
+<div id = "birthdayCard" class="birthdayCard">
+<div class="cardFront">
+  <h3 class="happy">FELIZ CUMPLEANOS!!!</h3>
+  <div class="wrap-deco">
+    <div class="decorations"></div>
+    <div class="decorationsTwo"></div>
+      </div> 
+        <div class="wrap-decoTwo">
+    <div class="decorations"></div>
+    <div class="decorationsThree"></div>
+      </div>
+<div class="balloons">
+  
+  <div class="balloonTwo"></div>
+  <div class="balloonThree"></div>
+  <div class="balloonFour"></div>
+</div>
+<img class="gif1" src="orsetto.png" alt="">
+<div class="plate">
+  <div class="cake"></div>
+  <div class="flame"></div>
+</div>
+
+</div>
+  
+  <div class="cardInside">
+   <h1 style="font-style: oblique;font-variant: super;"> “No son los años los que cuentan en la vida, es la vida que pones en esos años.”  </h1>
+   <h3>(Abraham Lincoln)</h3>
+  </div>
+
+</div>
+<!-- partial -->
+<script>
+$(document).ready(function(){
+  $("#birthdayCard").mouseover(function(){
+      $("#amici1").css("visibility", "visible");
+  });
+  $("#birthdayCard").mouseout(function(){
+      $("#amici1").css("visibility", "hidden");
+  });
+});
+</script>
+</body>
+</html>
